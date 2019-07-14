@@ -4,6 +4,7 @@ import Dashboard from './containers/Dashboard';
 import NotFound from './containers/NotFound';
 import Redirect from './containers/Redirect';
 import './App.css';
+import 'antd/dist/antd.css';
 
 function App() {
   return (
