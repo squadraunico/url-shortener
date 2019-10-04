@@ -6,12 +6,17 @@ import UrlInput from '../../components/UrlInput';
 const { Header, Footer, Content } = Layout;
 
 function Dashboard(props) {
+<<<<<<< HEAD
 	const style = {
+=======
+	const s = {
+>>>>>>> dashboardUi
 		"header":{
 			"background":'#02aa93',
 			"fontWeight": 'bold',
 			"fontSize": "24px"
 		},
+<<<<<<< HEAD
 		"footer": {
 			"background":'#02aa93',			
 			"color": "black",
@@ -34,12 +39,18 @@ function Dashboard(props) {
 				"padding": "10px"
 			}
 		}	
+=======
+>>>>>>> dashboardUi
 		
 	}
 	return (
 		<div>
 			<Layout>
+<<<<<<< HEAD
 				<Header style = {style.header} >URL Shortner</Header>
+=======
+				<Header style = {s.header} >URL Shortner</Header>
+>>>>>>> dashboardUi
 				<Content className="content">
 					<UrlInput />
 				</Content>
