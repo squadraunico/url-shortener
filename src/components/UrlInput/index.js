@@ -13,7 +13,11 @@ function UrlInput(props) {
 				<Input
 					className="input-url"
 					placeholder="input the url"
+<<<<<<< HEAD
 					onChange={(value) => console.log(value)}
+=======
+					onChange={value => console.log(value)}
+>>>>>>> dashboardUi
 					suffix={<img src={SendIcon} alt="enter" />}
 				/>
 				<Row type="flex" justify="space-around" style={rowStyle}>
