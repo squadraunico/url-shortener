@@ -14,10 +14,14 @@ function UrlInput(props) {
 					className="input-url"
 					placeholder="input the url"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					onChange={(value) => console.log(value)}
 =======
 					onChange={value => console.log(value)}
 >>>>>>> dashboardUi
+=======
+					onChange={(value) => console.log(value)}
+>>>>>>> Footer UI
 					suffix={<img src={SendIcon} alt="enter" />}
 				/>
 				<Row type="flex" justify="space-around" style={rowStyle}>
