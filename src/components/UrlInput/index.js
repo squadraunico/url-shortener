@@ -13,19 +13,12 @@ function UrlInput(props) {
 				<Input
 					className="input-url"
 					placeholder="input the url"
-<<<<<<< HEAD
-<<<<<<< HEAD
 					onChange={(value) => console.log(value)}
-=======
-					onChange={value => console.log(value)}
->>>>>>> dashboardUi
-=======
-					onChange={(value) => console.log(value)}
->>>>>>> Footer UI
+					onPressEnter={(event) => { event.persist(); console.log(event.target.value)}}
 					suffix={<img src={SendIcon} alt="enter" />}
 				/>
 				<Row type="flex" justify="space-around" style={rowStyle}>
-					<Col span={4}>
+					<Col span={8}>
 						<Checkbox onChange={e => console.log(e.target)}>
 							Custom Url
 						</Checkbox>
