@@ -7,16 +7,23 @@ const { Header, Footer, Content } = Layout;
 
 function Dashboard(props) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	const style = {
 =======
 	const s = {
 >>>>>>> dashboardUi
+=======
+	const style = {
+>>>>>>> Footer UI
 		"header":{
 			"background":'#02aa93',
 			"fontWeight": 'bold',
 			"fontSize": "24px"
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Footer UI
 		"footer": {
 			"background":'#02aa93',			
 			"color": "black",
@@ -39,18 +46,25 @@ function Dashboard(props) {
 				"padding": "10px"
 			}
 		}	
+<<<<<<< HEAD
 =======
 >>>>>>> dashboardUi
+=======
+>>>>>>> Footer UI
 		
 	}
 	return (
 		<div>
 			<Layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Header style = {style.header} >URL Shortner</Header>
 =======
 				<Header style = {s.header} >URL Shortner</Header>
 >>>>>>> dashboardUi
+=======
+				<Header style = {style.header} >URL Shortner</Header>
+>>>>>>> Footer UI
 				<Content className="content">
 					<UrlInput />
 				</Content>
