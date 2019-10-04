@@ -13,7 +13,7 @@ function UrlInput(props) {
 				<Input
 					className="input-url"
 					placeholder="input the url"
-					onChange={value => console.log(value)}
+					onChange={(value) => console.log(value)}
 					suffix={<img src={SendIcon} alt="enter" />}
 				/>
 				<Row type="flex" justify="space-around" style={rowStyle}>
