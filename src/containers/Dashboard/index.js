@@ -31,11 +31,11 @@ function Dashboard(props) {
 				"fontSize":"16px",
 				"fontWeight": 'bold',				
 				"display": "flex",
-				"justify-content":"space-between",
+				"justifyContent":"space-between",
 				"squad": {
 					"display": "flex",
-					"flex-direction":"column",
-					"align-items": "self-start"
+					"flexDirection":"column",
+					"alignItems": "self-start"
 				},
 				"contactUs": {
 					"display":"flex"
